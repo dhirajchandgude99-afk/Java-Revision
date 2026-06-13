@@ -3,7 +3,7 @@ class Student3 {
     private String name;
    
 
-    // Setter for id
+    // Setter methods for id and name
     public void setId(int id) {
         this.id = id;
     }
@@ -11,7 +11,7 @@ class Student3 {
         this.name = name;
     }
 
-    // Getter for name
+    // Getter methods for id and name
     public int getId() {
         return id;
     }
