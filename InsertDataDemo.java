@@ -7,7 +7,7 @@ public static void main(String[] args) {
         Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb", "root", "Dhiraj@123");
         System.out.println("Connection established successfully.");
         Statement st = con.createStatement();
-        String query = "INSERT INTO studentdb.student VALUES(100, 'Rahul')";
+        String query = "INSERT INTO studentdb.student VALUES(103, 'Amit')";
         int rows = st.executeUpdate(query);
         System.out.println(rows + " row(s) inserted successfully.");
         con.close();
