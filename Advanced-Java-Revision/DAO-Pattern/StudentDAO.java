@@ -6,7 +6,7 @@ public class StudentDAO {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/studentdb", "root", "Dhiraj@123");
-            String query = "INSERT INTO students (id, name) VALUES (?, ?)";
+            String query = "INSERT INTO student (id, name) VALUES (?, ?)";
             PreparedStatement ps = con.prepareStatement(query);
             ps.setInt(1, s.getId());
             ps.setString(2, s.getName());
