@@ -1,7 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        Student s = new Student(502, "Dhiraj");
         StudentDAO dao = new StudentDAO();
-        dao.insertStudent(s);
+        Student s = dao.getStudentById(502);
+        if (s != null) {
+            System.out.println("Student ID: " + s.getId());
+            System.out.println("Student Name: " + s.getName());
+        } else {
+            System.out.println("Student not found.");
+        }
     }
 }
