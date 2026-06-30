@@ -1,6 +1,13 @@
 {
     "java.project.referencedLibraries": [
-        "lib/**/*.jar",
-        "c:\\Users\\Sagar\\Downloads\\mysql-connector-j-9.6.0\\mysql-connector-j-9.6.0\\mysql-connector-j-9.6.0.jar"
+        "c:\\Users\\Sagar\\Downloads\\mysql-connector-j-9.6.0\\mysql-connector-j-9.6.0\\mysql-connector-j-9.6.0.jar",
+        "c:\\Users\\Sagar\\Downloads\\HikariCP-7.1.0.jar",
+        "c:\\Users\\Sagar\\Downloads\\slf4j-api-2.0.18.jar",
+        "c:\\Users\\Sagar\\Downloads\\slf4j-simple-2.1.0-alpha1.jar"
+    ],
+    "java.project.sourcePaths": [
+        "Advanced-Java-Revision\\Connection-Pooling\\lib",
+        "Advanced-Java-Revision\\Connection-Pooling\\src",
+        "Advanced-Java-Revision\\DAO-Pattern"
     ]
 }
